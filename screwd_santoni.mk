@@ -22,7 +22,7 @@ $(call inherit-product, vendor/screwd/main.mk)
 $(call inherit-product, vendor/screwd/configs/caf_required.mk)
 
 PRODUCT_NAME := screwd_santoni
-PRODUCT_COPY_FILES += device/xiaomi/mido/apns-full-conf.xml:system/etc/apns-conf.xml
+PRODUCT_COPY_FILES += device/xiaomi/santoni/apns-full-conf.xml:system/etc/apns-conf.xml
 
 BOARD_VENDOR := Xiaomi
 
