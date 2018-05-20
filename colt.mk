@@ -19,6 +19,8 @@ $(call inherit-product, device/xiaomi/santoni/full_santoni.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/colt/config/common_full_phone.mk)
 
+TARGET_BOOT_ANIMATION_RES := 1080
+
 PRODUCT_NAME := colt_santoni
 BOARD_VENDOR := Xiaomi
 
