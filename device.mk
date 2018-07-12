@@ -140,7 +140,9 @@ PRODUCT_PACKAGES += \
     camera.msm8937 \
     libmm-qcamera \
     mm-qcamera-app \
-    Snap
+    Snap \
+    Recorder \
+    Eleven
 
 PRODUCT_PACKAGES += \
     camera.device@1.0-impl \
