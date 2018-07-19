@@ -16,12 +16,8 @@
 
 $(call inherit-product, device/xiaomi/santoni/full_santoni.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/colt/config/common_full_phone.mk)
 
-TARGET_BOOT_ANIMATION_RES := 1080
-
-PRODUCT_NAME := colt_santoni
+PRODUCT_NAME := santoni
 BOARD_VENDOR := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
@@ -31,3 +27,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := "Xiaomi/santoni/santoni:7.1.2/N2G47H/V9.5.4.0.NAMMIFA:user/release-keys"
+
+# Bootanimation
+TARGET_SCREEN_WIDTH := 1080
